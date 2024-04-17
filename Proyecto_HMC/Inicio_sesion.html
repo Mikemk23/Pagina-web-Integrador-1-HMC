@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="ppl2.css">
+
+</head>
+<body background="fondo de sesion.jpg">
+    <header class="header">
+        <div class="logo">
+            <!---->            <img src="Imagenes/Logo.png" alt="Logo de la marca">
+                    </div>
+
+                    <nav>
+                        <ul class="nav-links">
+                             <li><a href="ppl.html">Inicio</a></li>
+                             <li><a href="Proyectos.html">Proyectos</a></li>
+                             <li><a href="Nosotros.html">Nosotros</a></li>
+                             <li><a href="Soporte.html">Soporte</a></li>
+                        </ul>            
+                     </nav>
+        
+    </header>
+
+    <div id="contenedor">
+      <div id="central">
+          <div id="login">
+              <div class="titulo">
+                  Login User
+              </div>
+
+              <form action="sesion.php" method="post">
+                  <input type="text" id="HMC_id_sesion" name="HMC_id_sesion" maxlength="10" placeholder="ID">
+                  
+                  <input type="password" id="HMC_password_sesion" name="HMC_password_sesion" maxlength="10" placeholder="CONTRASEÑA">
+
+                  <input type="password" id="HMC_password_secreto" name="HMC_password_secreto" maxlength="10" placeholder="CONTRASEÑA SECRETA">
+
+                  <input type="submit" value="Iniciar sesión">
+              </form>
+
+              <div class="pie-form">
+                  <a href="registro.html">¿No tienes Cuenta? Registrate</a>
+              </div>
+          </div>         
+      </div>
+  </div>
+    
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info-logo">
+            <h4>
+              HMC
+            </h4>
+            <p>
+              <h3>!Tu Seguridad en Nuestras Manos¡</h3>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info-contact">
+            <h4>
+              INFORMACION DE CONTACTO
+            </h4>
+            <div class="location">
+              <h6>
+                Direccion:
+              </h6>
+              <a href="https://goo.gl/maps/xNyz8mbFQC32keHJA">
+                <img src="Imagenes/location.png" alt="">
+                <span>
+                  AV. Juarez #1133, San Mateo Atenco, EDOMEX
+                </span>
+              </a>
+            </div>
+            <div class="call">
+              <h6>
+                Customer Service:
+              </h6>
+                <img src="Imagenes/telephone.png" alt="">
+                <span>
+                  ( 7227536699 )
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="container-fluid footer_section">
+    <p>
+      Copyright &copy; 2019 All Rights Reserved By HMC
+    </p>
+  </section>
+
+</body>
+</html>
